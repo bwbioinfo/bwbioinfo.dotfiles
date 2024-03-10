@@ -1,1 +1,12 @@
-
+// Place your key bindings in this file to override the defaults
+[
+    {
+         "key": "ctrl+enter",
+         "command": "macros.sendToTerm",
+         "when": "editorTextFocus" 
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    }
+]
