@@ -1,0 +1,8 @@
+{
+    "editor.renderWhitespace": "all",
+    "macros.list": {
+        "sendToTerm": [
+            "workbench.action.terminal.runSelectedText"
+        ]
+    }
+}
