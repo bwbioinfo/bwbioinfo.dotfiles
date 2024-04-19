@@ -1,8 +1,33 @@
 {
     "editor.renderWhitespace": "all",
-    "macros.list": {
-        "sendToTerm": [
-            "workbench.action.terminal.runSelectedText"
+    "macros": {
+        "sendToTerm" : 
+        [
+            "workbench.action.terminal.runSelectedText",
+            "workbench.action.focusActiveEditorGroup"
         ]
-    }
+    },
+    "editor.fontFamily": "'JuliaMono', 'monospace', monospace",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontFamily": "JuliaMono Black",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "redhat.telemetry.enabled": false,
+    "browse-lite.chromeExecutable": "/usr/bin/chromium",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.autofetch": true,
+    "window.zoomLevel": -1,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.externalSSH_ASKPASS": true,
+    "remote.SSH.enableRemoteCommand": true,
+    "remote.SSH.useExecServer": true,
+    "remote.SSH.path": "/usr/bin/ssh"
 }
