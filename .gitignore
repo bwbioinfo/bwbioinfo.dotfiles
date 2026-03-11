@@ -1,0 +1,8 @@
+*
+!.bashrc
+!.config/
+!.gitignore
+!.ssh/
+!.zshrc
+!README.md
+!vscode/
